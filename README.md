@@ -26,6 +26,17 @@ To run HappyStreak locally, follow these steps:
     `npm start`
 5. Open your browser and navigate to <http://localhost:3000>
 
+To run HappyStreak using Docker follow these steps:
+
+1. Install Docker Desktop
+2. Login into Docker Hub
+3. Redirect to this url <https://hub.docker.com/r/elviacorrea/sitproject>
+4. Use this command to pull `docker pull elviacorrea/sitproject`
+5. Use this command to run `docker run -d -p 3000:3000 elviacorrea/sitproject`
+6. Open web browser and navigate to <http://localhost:3000>
+
+
+
 ## Usage
 
 1. **Register**: Create an account to get started.
